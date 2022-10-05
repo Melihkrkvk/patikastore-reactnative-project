@@ -33,7 +33,10 @@ export default StyleSheet.create({
     },
     stock_text: {
         color: 'red',
-        fontSize: 18,
+        fontSize: 14,
+        paddingLeft: 4,
+        paddingBottom: 2,
+        fontWeight: 'bold',
     },
 
 

@@ -12,6 +12,7 @@ const ShopItems = ({items}) => {
             <Image style={styles.image} source={{uri: items.imgURL}}/>
             <Text style={styles.title}>{items.title}</Text>
             <Text style={styles.price_text}>{items.price}</Text>
+            <Text style={styles.stock_text}>{items.inStock === true ? '' : 'STOKTA YOK'}</Text>
            
         
             
